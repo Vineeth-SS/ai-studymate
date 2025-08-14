@@ -244,4 +244,4 @@ if uploaded_pdfs:
             if mode == "Single PDF" and selected_pdf:
                 st.session_state["pdf_data"][selected_pdf]["conversation"].append((question, ans))
 
-            st.rerun()  # refresh UI to show updated conversation
+            st.rerun()  
