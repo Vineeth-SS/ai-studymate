@@ -5,3 +5,5 @@ PyPDF2
 python-dotenv
 faiss-cpu
 numpy
+beautifulsoup4
+ollama
